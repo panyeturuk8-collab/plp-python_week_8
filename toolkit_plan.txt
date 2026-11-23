@@ -1,0 +1,22 @@
+PERSONAL MINI-TOOLKIT — PROJECT PLAN
+
+Chosen Tools (3):
+1. Quick Task List: Lets the user add tasks, view their current list, and remove completed tasks during the session.
+2. Daily Expense & Budget Check: Adds up expense amounts entered by the user and checks how they compare against a daily spending target.
+3. Study Session Timer: Counts down whole minutes or seconds in the terminal until the study block finishes.
+
+Exact Menu Text:
+========================================
+        PERSONAL MINI-TOOLKIT
+========================================
+1. Quick Task List
+2. Daily Expense & Budget Check
+3. Study Session Timer
+4. Quit
+----------------------------------------
+Choose an option (1-4):
+
+Concepts Used per Tool:
+- Quick Task List: while/for loops, mutable list (append, pop/remove, indexing), conditionals (if/elif/else), f-strings.
+- Daily Expense & Budget Check: for/while loop (collecting amounts and summing), conditional (if/elif/else comparing total to budget), f-strings.
+- Study Session Timer: while loop with countdown and time.sleep(1), conditional (input validation and completion message), f-strings.
